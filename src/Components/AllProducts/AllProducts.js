@@ -12,8 +12,8 @@ const AllProducts = ({setCartIncrease}) => {
     },[])
     console.log(products);
     return (
-        <div>
-            <h1>All Products</h1>
+        <div className='mt-4'>
+            <h1 className='my-4'>All Products</h1>
            <div className="row container w-100 mx-auto">
            {
                 products.map((pd)=>(

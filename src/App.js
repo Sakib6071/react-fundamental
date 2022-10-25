@@ -7,6 +7,7 @@ import { useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [count,setCount]=useState(0)
@@ -26,7 +27,7 @@ function App() {
     <div className="App">
      <Navbar count={count}></Navbar>
      <AllProducts setCartIncrease={setCartIncrease}></AllProducts>
-     
+     <Footer></Footer>
     </div>
   );
 }

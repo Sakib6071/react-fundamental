@@ -2,3 +2,6 @@
     list-style: none;
     cursor: pointer;
 }
+.CustomStyle{
+    background: rgb(175, 229, 253);
+}
